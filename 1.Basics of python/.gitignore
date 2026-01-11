@@ -1,4 +1,3 @@
-
-git remote add origin https://github.com/diwakar-web/Data-Structures-In-Python.git
+git remote add origin https://github.com/diwakar-web/DSA-in-Python.git
 git branch -M main
 git push -u origin main
