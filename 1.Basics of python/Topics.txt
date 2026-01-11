@@ -1,0 +1,341 @@
+What is a Programming Language?
+
+A programming language is a formal language that
+provides instructions for a computer to execute. It's
+how humans communicate with computers to create
+software, applications, and other technology.
+
+High Level Programming Language vs Low Level Programming Language
+
+High level programming languages are those that are
+written in a human-readable format and are
+translated into machine code by a compiler or interpreter.
+
+Low level programming languages are those that are
+written in a machine-readable format and are
+translated into machine code by a compiler or interpreter.
+
+Compiler vs Interpreter
+
+A compiler is a program that translates source code
+into machine code at once, which can be executed by a computer.
+
+An interpreter is a program that translates source code
+into machine code Line By Line, which can be executed by a computer. 
+
+Introduction to Python
+
+Python is a high-level, interpreted programming language
+that is easy to learn and use. It is a popular choice for
+web development, data analysis, artificial intelligence,
+and more.
+
+
+1️⃣ Variables
+A variable is a named memory location used to store data that can change during program execution.
+Example (C):
+int age = 20;
+age → variable name
+20 → value stored
+Value of a variable can be changed later.
+
+2️⃣ Keywords
+Keywords are reserved words that have a special meaning in a programming language.
+You cannot use them as variable names.
+Examples (C):
+int, float, if, else, return, while
+❌ Invalid:
+int int = 10;   // Error
+
+3️⃣ Identifiers
+Identifiers are the names given to variables, functions, arrays, etc.
+Rules for identifiers:
+✔ Can contain letters, digits, _
+✔ Must start with a letter or _
+❌ Cannot start with a digit
+❌ Cannot be a keyword
+Examples:
+int total_marks;
+float averageScore;
+
+4️⃣ Comments
+Comments are used to explain code.
+They are ignored by the compiler.
+Types of comments (C / Java):
+🔹 Single-line comment
+// This is a comment
+
+🔹 Multi-line comment
+/* This is
+   a multi-line comment */
+Helps in readability & debugging.
+
+# ---> for python
+
+5️⃣ Operators
+Operators are symbols used to perform operations on variables and values.
+Common types of operators:
+🔹 Arithmetic
++  -  *  /  %
+
+🔹 Relational
+==  !=  >  <  >=  <=
+
+🔹 Logical
+&&  ||  !
+
+🔹 Assignment
+=  +=  -=  *=
+Example:
+sum = a + b;
+
+6️⃣ Data Types
+Data types specify the type of data a variable can store.
+
+Numeric - int, float, complex
+String (str)
+Boolean (bool)
+None
+Data Structures - list, tuple, dictionaries, sets etc.
+
+Input & Output in Python
+
+📥📤 Input & Output in Python
+In Python, Input means taking data from the user, and Output means displaying data to the user.
+
+1️⃣ Input in Python
+Python uses the input() function to take input from the user.
+🔹 Syntax
+variable = input("Message to user: ")
+🔹 Example
+name = input("Enter your name: ")
+print(name)
+
+📌 By default, input() always takes input as a string.
+
+🔢 Taking Numeric Input
+To use numbers, convert input using type casting.
+
+Integer input
+age = int(input("Enter age: "))
+
+Float input
+salary = float(input("Enter salary: "))
+
+2️⃣ Output in Python
+Python uses the print() function to display output.
+🔹 Syntax
+print(value)
+
+🖨 Printing Multiple Values
+x = 10
+y = 20
+print(x, y)
+
+🎯 Formatted Output
+Using commas
+print("Sum is", x + y)
+
+Using f-strings (Recommended)
+print(f"Sum is {x + y}")
+
+Using format()
+print("Sum is {}".format(x + y))
+
+🔁 Printing without New Line
+print("Hello", end=" ")
+print("World")
+
+Output:
+Hello World
+
+📐 Separator in Output
+print("2026", "01", "11", sep="-")
+
+Output:
+2026-01-11
+
+3️⃣ Example Program (Input + Output)
+a = int(input("Enter first number: "))
+b = int(input("Enter second number: "))
+sum = a + b
+print(f"Sum of {a} and {b} is {sum}")
+
+
+
+
+Control Statements
+
+Control statements are used to control the flow of execution of a program based on conditions or repetitions.
+Python control statements are mainly of three types 👇
+
+1️⃣ Decision Control Statements
+Used to make decisions based on conditions.
+
+🔹 if statement
+age = 18
+if age >= 18:
+    print("Eligible to vote")
+
+🔹 if-else statement
+num = 5
+if num % 2 == 0:
+    print("Even number")
+else:
+    print("Odd number")
+
+🔹 if-elif-else statement
+marks = 85
+if marks >= 90:
+    print("Grade A")
+elif marks >= 75:
+    print("Grade B")
+else:
+    print("Grade C")
+
+2️⃣ Looping Control Statements
+Used to repeat a block of code.
+
+🔹 for loop
+for i in range(1, 6):
+    print(i)
+
+🔹 while loop
+i = 1
+while i <= 5:
+    print(i)
+    i += 1
+
+3️⃣ Jump Control Statements
+Used to change the normal flow of loops.
+
+🔹 break
+Stops the loop completely.
+for i in range(1, 10):
+    if i == 5:
+        break
+    print(i)
+
+🔹 continue
+Skips the current iteration.
+
+for i in range(1, 6):
+    if i == 3:
+        continue
+    print(i)
+
+🔹 pass
+Does nothing (placeholder).
+
+for i in range(5):
+    pass
+
+🔁 Nested Control Statements
+Control statements inside another control statement.
+
+for i in range(1, 4):
+    for j in range(1, 4):
+        print(i, j)
+
+        
+Functions
+
+## 🔧 Functions in Python
+A **function** is a **block of reusable code** that performs a specific task.
+Functions help make programs **shorter, modular, and easier to understand**.
+
+## 1️⃣ Why Use Functions?
+✔ Avoid repetition
+✔ Improve readability
+✔ Easy debugging
+✔ Code reusability
+
+
+## 2️⃣ Types of Functions in Python
+
+### 🔹 Built-in Functions
+Already provided by Python.
+Examples:
+Python
+print()
+input()
+len()
+type()
+
+### 🔹 User-Defined Functions
+Functions created by the programmer.
+
+## 3️⃣ Defining a Function
+### 🔹 Syntax
+
+def function_name(parameters):
+    statement(s)
+### 🔹 Example
+def greet():
+    print("Hello, Welcome to Python")
+
+## 4️⃣ Calling a Function
+greet()
+
+## 5️⃣ Function with Parameters
+def add(a, b):
+    print(a + b)
+add(5, 3)
+
+## 6️⃣ Function with Return Value
+def square(x):
+    return x * x
+result = square(4)
+print(result)
+📌 `return` sends a value back to the caller.
+
+## 7️⃣ Types of Arguments
+
+### 🔹 Positional Arguments
+add(10, 20)
+
+### 🔹 Keyword Arguments
+add(a=10, b=20)
+
+### 🔹 Default Arguments
+def greet(name="User"):
+    print("Hello", name)
+greet()
+greet("Diwakar")
+
+🔹 Variable-Length Arguments
+
+#### `*args`
+def total(*numbers):
+    return sum(numbers)
+print(total(1, 2, 3, 4))
+
+#### `**kwargs`
+
+def details(**info):
+    print(info)
+
+details(name="Diwakar", age=19)
+
+## 8️⃣ Lambda (Anonymous) Function
+A function without a name, written in one line.
+square = lambda x: x * x
+print(square(5))
+
+## 9️⃣ Recursive Function
+A function that calls itself.
+def factorial(n):
+    if n == 0:
+        return 1
+    return n * factorial(n - 1)
+
+## 🔁 Scope of Variables
+
+* **Local** → Inside function
+* **Global** → Outside function
+
+
+
+
+
+
