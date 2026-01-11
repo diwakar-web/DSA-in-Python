@@ -60,3 +60,25 @@
 
 
 
+# def add(a,b):
+#     sum=a+b
+#     return sum
+# func=add(4,5)
+# print(func)
+
+
+# def greet(name, age):
+#     print(f"Hello {name}, your age is {age}.")
+
+# n=input("Enter Your Name-");
+# a= int(input("Enter Your Age-"))
+# greet(n,a)
+
+
+# def factorial(n):
+#     if n == 0:
+#         return 1
+#     return n * factorial(n - 1)
+# fact=factorial(5)
+# print(fact)
+
