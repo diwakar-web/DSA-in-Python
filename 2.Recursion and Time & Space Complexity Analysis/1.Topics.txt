@@ -1,0 +1,77 @@
+Time Complexity
+
+Time complexity in computer science describes how
+the execution time of an algorithm grows as the input
+size increases. It essentially quantifies the number of
+operations an algorithm performs as a function of the
+input data size.
+
+
+
+
+
+Asymptotic Notations
+
+Best Case (OMEGA)
+Average Case (THETA)
+Worst Case (O)
+
+
+
+
+
+
+
+Types of Time Complexities
+
+Time complexities are categorized based on how an
+algorithm's runtime scales with the input size.
+Common types include 
+constant time (O(1)),
+logarithmic time (O(log n)), 
+linear time (O(n)),
+quadratic time (O(n^2)),
+ and exponential time (O(2^n))
+
+
+
+
+
+Comparison of Time Complexities
+
+O(1) <O(log n) < O(n) < O(n log n)< O(n^2)<  O(2^n) <O(n!)
+
+
+
+
+
+
+Space Complexity
+
+Space complexity refers to the amount of memory an
+algorithm uses as a function of the input size. It's a +
+measure of how much memory an algorithm requires
+to execute and solve a problem.
+
+
+
+
+
+
+
+Introduction to Recursion
+
+The process in which a function calls itself directly or
+indirectly is called recursion and the corresponding
+function is called a recursive function.
+
+
+
+
+
+Recursive Stack
+
+Recursive stack is the memory stack that stores function calls when a function calls itself until the base condition is reached.
+
+
+
