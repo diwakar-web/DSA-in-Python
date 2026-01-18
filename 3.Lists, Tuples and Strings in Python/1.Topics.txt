@@ -1,0 +1,88 @@
+Python List
+
+In Python, lists allow us to store multiple items in a
+single variable. For example, if you need to store the
+ages of all the students in a class, you can do this
+task using a list.
+Lists are similar to arrays (dynamic arrays that allow
+us to store items of different data types) in other
+programming languages.
+
+In Python, lists are:
+
+Ordered - They maintain the order of elements.
+Mutable - Items can be changed after creation.
+Allow duplicates - They can contain duplicate values.
+
+
+
+
+Operations in List
+
+· len()
+· Negative Indexing
+· append()
+· extend()
+· insert()
+· remove()
+· pop()
+· clear()
+· min()
+· max()
+· Slicing
+. count()
+· sort()
+· reverse()
+· copy()
+· index()
+
+
+
+Python Tuple
+
+A tuple is a collection similar to a Python list. The
+primary difference is that we cannot modify a tuple
+once it is created.
+
+Ordered - They maintain the order of elements.
+Immutable - They cannot be changed after creation.
+Allow duplicates - They can contain duplicate values.
+
+Operations in Tuple
+
+· len()
+· Negative Indexing
+· min()
+· max()
+· Slicing
+. count()
+· index()
+
+
+
+Strings in Python
+
+In Python, a string is a sequence of characters. For
+example, "hello" is a string containing a sequence of
+characters 'h', 'e', 'l', 'l', and 'o'.
+
+We use single quotes or double quotes to represent a
+string in Python.
+
+
+Operations in Strings
+
+· len()
+· Negative Indexing
+· upper()
+· lower()
+· capitalize()
+· strip()
+· split()
+· replace()
+· Slicing
+· count()
+· startswith()
+· endswith()
+· find()
+· index()
