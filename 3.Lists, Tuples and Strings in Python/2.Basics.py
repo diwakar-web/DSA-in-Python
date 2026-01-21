@@ -73,7 +73,37 @@ introduction = """My name is Diwakar
 I live in bangalore
 I love coding"""
 
-print(type(name))
-print(type(grade))
-print(type(company))
-print(type(introduction))
+# print(type(name))
+# print(type(grade))
+# print(type(company))
+# print(type(introduction))
+
+
+
+a="#########Diwakar Nagar##############"
+# print(a[2])
+# print(a.upper())
+# print(len(a))
+# print(a[-1])
+# print(a.lower())
+# print(a.capitalize())
+# print(a.replace("i","y"))
+# print(a.count("a"))
+# print(a.startswith("d"))
+# print(a.endswith("Nagar"))
+# print(a.find("i"))
+# print(a.index("i"))
+# print(a[2:5])
+
+print(a.strip("#"))  #remove extra char at the ends
+
+b="Hello my name is diwakar nagar"
+print(b.split(" "))
+
+list=['Hello', 'my', 'name', 'is', 'diwakar', 'nagar']
+print(" ".join(list))
+
+a='Diwakar Nagar'
+print('Diwakar \n Nagar') #next line
+print('Diwakar \t Nagar')  #tab-space
+print(ord("A")) #ascii value

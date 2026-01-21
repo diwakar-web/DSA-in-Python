@@ -68,7 +68,7 @@ characters 'h', 'e', 'l', 'l', and 'o'.
 
 We use single quotes or double quotes to represent a
 string in Python.
-
+ String is also non-mutable
 
 Operations in Strings
 
