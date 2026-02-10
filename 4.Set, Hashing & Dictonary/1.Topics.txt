@@ -1,0 +1,59 @@
+Python Sets
+
+A set is a collection of unique data, meaning that
+elements within a set cannot be duplicated.
+
+For instance, if we need to store information about
+student IDs, a set is suitable since student IDs cannot
+have duplicates.
+
+
+Operations in Sets
+
+· len()
+· add()
+· clear()
+· copy()
+· discard()
+· No Indexing
+
+
+· Set Operations
+· union()
+· intersection()
+· difference()
+· symmetric_difference()
+
+
+
+
+Python Dictionaries
+
+A Python dictionary is a collection of items, similar to
+lists and tuples. However, unlike lists and tuples,
+each item in a dictionary is a key-value pair
+(consisting of a key and a value).
+
+
+
+
+
+Operations in Dictionaries
+
+· len() 
+· pop()
+· update()
+· clear()
+· keys()
+· values()
+· items()
+· get()
+· copy()
+
+
+
+Hashing
+
+Hashing is a technique used in data structures that
+efficiently stores and retrieves data in a way that
+allows for quick access.
